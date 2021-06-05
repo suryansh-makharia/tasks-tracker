@@ -6,15 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body {
-  background: white;
-}
 .App {
   width: 80%;
   margin: auto;
   box-shadow: 0 0 10px #d4d4d4;
   min-height: 80vh;
-  border-radius:0 0  1rem 1rem;
+  border-radius: 0 0  1rem 1rem;
 }
 .form-container {
   display: flex;
@@ -203,6 +200,9 @@ select {
   }
   .filter-tasks {
     margin: 0;
+  }
+  .filter-input {
+    width: 90%;
   }
   .filter-btn {
     padding: 0;
