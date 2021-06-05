@@ -183,9 +183,6 @@ select {
 }
 @media (max-width: 800px){
   @media (min-width: 500px) {
-    .form {
-      width: 70%;
-    }
     .collection {
       width: 60%;
     }
@@ -195,15 +192,15 @@ select {
   .App {
     width: 95%;
   }
-  .form {
-    width: 70%;
-  }
   .filter {
   flex-direction: column;
   }
   .filter-tasks {
     margin: 0;
-    width: 63%;
+    width: 50%;
+  }
+  .filter-input {
+    width: 100%;
   }
   .filter-btn {
     padding: 0;
@@ -213,9 +210,6 @@ select {
   }
   .collection {
     width: 70%;
-  }
-  .form-container {
-    min-height: 40vh;
   }
 }
   @media (max-width: 800px){
