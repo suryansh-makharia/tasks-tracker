@@ -192,6 +192,9 @@ select {
   }
 }
 @media (max-width: 500px){
+  .App {
+    width: 95%;
+  }
   .form {
     width: 70%;
   }
@@ -200,9 +203,7 @@ select {
   }
   .filter-tasks {
     margin: 0;
-  }
-  .filter-input {
-    width: 80%;
+    width: 63%;
   }
   .filter-btn {
     padding: 0;
