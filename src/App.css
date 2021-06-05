@@ -59,10 +59,13 @@ button {
 .filter-tasks {
   border: 1px solid black;
   margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
-.filter-btn {
+.fa-search {
   background: none;
   font-size: 0.9rem;
+  padding: 0.5rem;
 }
 .container {
   display: flex;
@@ -200,6 +203,9 @@ select {
   }
   .filter-tasks {
     margin: 0;
+  }
+  .filter-btn {
+    padding: 0;
   }
   .select {
     margin-top: 2rem;

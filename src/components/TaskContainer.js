@@ -42,7 +42,7 @@ export default function TaskContainer({
                     <input onChange={(e) => setSearchValue(e.target.value)} value={searchValue}
                            placeholder="Search Tasks"
                            type="text" className="filter-input"/>
-                    <button className="filter-btn"><i className="fas fa-search"> </i></button>
+                    <i className="fas fa-search"> </i>
                 </div>
                 <div className="select">
                     <select onChange={(e) => setSelectValue(e.target.value)} name="tasks" id="filter-tasks">
